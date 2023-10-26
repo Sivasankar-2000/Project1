@@ -6,15 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/Registerscene.unity
+    path: Assets/pixel game/Pixel Adventure 1/Scenes/Demo.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Game/Scenes/Registerscene.unity
+    path: Assets/pixel game/Scenes/Registerscene.unity
     guid: 94232ed61b780484facc8dc6afc4370a
   - enabled: 1
-    path: Assets/Game/Scenes/Loginscene.unity
+    path: Assets/pixel game/Scenes/Loginscene.unity
     guid: d7ffc9a1528d8ae4694b245a9acbd3de
   - enabled: 1
-    path: Assets/Game/Scenes/Menuscene.unity
+    path: Assets/pixel game/Scenes/Menuscene.unity
     guid: a3e52f1bd64941f4f81f4602da65d538
   m_configObjects: {}
