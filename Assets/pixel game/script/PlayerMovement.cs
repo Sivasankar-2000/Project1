@@ -7,8 +7,8 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rigidplayer;
     private SpriteRenderer spriteplayer;
     private Animator anime;
-    private float dirx;
-    
+    private float dirx = 0f;
+        
     private void Start()
     {
         rigidplayer = GetComponent<Rigidbody2D>();

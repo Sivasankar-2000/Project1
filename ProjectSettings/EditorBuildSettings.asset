@@ -8,13 +8,16 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/pixel game/Pixel Adventure 1/Scenes/Demo.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
+  - enabled: 0
     path: Assets/pixel game/Scenes/Registerscene.unity
     guid: 94232ed61b780484facc8dc6afc4370a
-  - enabled: 1
+  - enabled: 0
     path: Assets/pixel game/Scenes/Loginscene.unity
     guid: d7ffc9a1528d8ae4694b245a9acbd3de
   - enabled: 1
     path: Assets/pixel game/Scenes/Menuscene.unity
     guid: a3e52f1bd64941f4f81f4602da65d538
+  - enabled: 1
+    path: Assets/pixel game/Scenes/level1.unity
+    guid: 47083bb901083be45b20b859eab056f6
   m_configObjects: {}
