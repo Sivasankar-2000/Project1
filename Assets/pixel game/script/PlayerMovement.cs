@@ -7,7 +7,10 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rigidplayer;
     private SpriteRenderer spriteplayer;
     private Animator anime;
+    
     private float dirx = 0f;
+    [SerializeField] private float movespeed = 7f;
+    [SerializeField] private float jumpforce = 14f;
         
     private void Start()
     {
@@ -19,11 +22,11 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         dirx = Input.GetAxisRaw("Horizontal");
-        rigidplayer.velocity = new Vector2(dirx * 7f,rigidplayer.velocity.y);
+        rigidplayer.velocity = new Vector2(dirx * movespeed,rigidplayer.velocity.y);
         
         if(Input.GetButtonDown("Jump"))
         {
-            rigidplayer.velocity = new Vector3(rigidplayer.velocity.x,14f);
+            rigidplayer.velocity = new Vector3(rigidplayer.velocity.x,jumpforce);
         }
 
         animationupdate();
